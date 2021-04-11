@@ -17,6 +17,7 @@ public class Application {
 		for(int i = 1;i<data.length;i++) {
 			switch(data[i][3]) {
 			case "openBrowser":
+				//Making changes after R1.1
 				mtd.openBrowser();
 				break;
 			case "maxBrowser":
